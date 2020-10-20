@@ -7,25 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F223AEF424BE470300C9B5F2 /* CustomCalloutViewNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = F223AEF324BE470300C9B5F2 /* CustomCalloutViewNib.swift */; };
+		F223AEF624BE4D0E00C9B5F2 /* CustomCalloutViewNibs.xib in Resources */ = {isa = PBXBuildFile; fileRef = F223AEF524BE4D0E00C9B5F2 /* CustomCalloutViewNibs.xib */; };
+		F23F260824B3B83D00AA8D9E /* DeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23F260724B3B83D00AA8D9E /* DeleteViewController.swift */; };
+		F23F9AA124BF1B5300D30439 /* CustomAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23F9AA024BF1B5300D30439 /* CustomAnnotationView.swift */; };
+		F25326FD24B4853A0048D190 /* CustomCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25326FC24B4853A0048D190 /* CustomCalloutView.swift */; };
+		F278814524B661590048860B /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F278814424B661590048860B /* ServiceManager.swift */; };
+		F278814824B661FE0048860B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F278814724B661FE0048860B /* Model.swift */; };
+		F292F75F24AD3AA900F77FE5 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F292F75E24AD3AA900F77FE5 /* SearchTableViewController.swift */; };
+		F292F76224AD3B0200F77FE5 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F292F76124AD3B0200F77FE5 /* AppConstants.swift */; };
 		F2A8656224AA5A8D00B2E99F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A8656124AA5A8D00B2E99F /* AppDelegate.swift */; };
 		F2A8656424AA5A8D00B2E99F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A8656324AA5A8D00B2E99F /* SceneDelegate.swift */; };
-		F2A8656624AA5A8D00B2E99F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A8656524AA5A8D00B2E99F /* ViewController.swift */; };
+		F2A8656624AA5A8D00B2E99F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A8656524AA5A8D00B2E99F /* MapViewController.swift */; };
 		F2A8656924AA5A8D00B2E99F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A8656724AA5A8D00B2E99F /* Main.storyboard */; };
 		F2A8656C24AA5A8D00B2E99F /* ForLocation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2A8656A24AA5A8D00B2E99F /* ForLocation.xcdatamodeld */; };
 		F2A8656E24AA5A8E00B2E99F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A8656D24AA5A8E00B2E99F /* Assets.xcassets */; };
 		F2A8657124AA5A8E00B2E99F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A8656F24AA5A8E00B2E99F /* LaunchScreen.storyboard */; };
+		F2B7DB5224ABB65900A5FAE2 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B7DB5124ABB65900A5FAE2 /* CustomAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F223AEF324BE470300C9B5F2 /* CustomCalloutViewNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalloutViewNib.swift; sourceTree = "<group>"; };
+		F223AEF524BE4D0E00C9B5F2 /* CustomCalloutViewNibs.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCalloutViewNibs.xib; sourceTree = "<group>"; };
+		F23F260724B3B83D00AA8D9E /* DeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteViewController.swift; sourceTree = "<group>"; };
+		F23F9AA024BF1B5300D30439 /* CustomAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotationView.swift; sourceTree = "<group>"; };
+		F25326FC24B4853A0048D190 /* CustomCalloutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalloutView.swift; sourceTree = "<group>"; };
+		F278814424B661590048860B /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		F278814724B661FE0048860B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F292F75E24AD3AA900F77FE5 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		F292F76124AD3B0200F77FE5 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		F2A8655E24AA5A8D00B2E99F /* ForLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A8656124AA5A8D00B2E99F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2A8656324AA5A8D00B2E99F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F2A8656524AA5A8D00B2E99F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2A8656524AA5A8D00B2E99F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		F2A8656824AA5A8D00B2E99F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2A8656B24AA5A8D00B2E99F /* ForLocation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ForLocation.xcdatamodel; sourceTree = "<group>"; };
 		F2A8656D24AA5A8E00B2E99F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2A8657024AA5A8E00B2E99F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2A8657224AA5A8E00B2E99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B7DB5124ABB65900A5FAE2 /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +59,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F223AEF224BE466400C9B5F2 /* Nib */ = {
+			isa = PBXGroup;
+			children = (
+				F223AEF524BE4D0E00C9B5F2 /* CustomCalloutViewNibs.xib */,
+				F223AEF324BE470300C9B5F2 /* CustomCalloutViewNib.swift */,
+			);
+			path = Nib;
+			sourceTree = "<group>";
+		};
+		F278814324B6614C0048860B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F278814424B661590048860B /* ServiceManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F278814624B661F30048860B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F278814724B661FE0048860B /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F292F76024AD3AF400F77FE5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F292F76124AD3B0200F77FE5 /* AppConstants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		F2A8655524AA5A8D00B2E99F = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +111,41 @@
 		F2A8656024AA5A8D00B2E99F /* ForLocation */ = {
 			isa = PBXGroup;
 			children = (
+				F278814624B661F30048860B /* Model */,
+				F278814324B6614C0048860B /* Service */,
+				F292F76024AD3AF400F77FE5 /* Common */,
+				F2A8657924AA868800B2E99F /* View */,
+				F2A8657824AA867D00B2E99F /* Controllor */,
 				F2A8656124AA5A8D00B2E99F /* AppDelegate.swift */,
 				F2A8656324AA5A8D00B2E99F /* SceneDelegate.swift */,
-				F2A8656524AA5A8D00B2E99F /* ViewController.swift */,
-				F2A8656724AA5A8D00B2E99F /* Main.storyboard */,
 				F2A8656D24AA5A8E00B2E99F /* Assets.xcassets */,
-				F2A8656F24AA5A8E00B2E99F /* LaunchScreen.storyboard */,
 				F2A8657224AA5A8E00B2E99F /* Info.plist */,
 				F2A8656A24AA5A8D00B2E99F /* ForLocation.xcdatamodeld */,
 			);
 			path = ForLocation;
+			sourceTree = "<group>";
+		};
+		F2A8657824AA867D00B2E99F /* Controllor */ = {
+			isa = PBXGroup;
+			children = (
+				F2A8656524AA5A8D00B2E99F /* MapViewController.swift */,
+				F292F75E24AD3AA900F77FE5 /* SearchTableViewController.swift */,
+				F23F260724B3B83D00AA8D9E /* DeleteViewController.swift */,
+			);
+			path = Controllor;
+			sourceTree = "<group>";
+		};
+		F2A8657924AA868800B2E99F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F223AEF224BE466400C9B5F2 /* Nib */,
+				F2A8656724AA5A8D00B2E99F /* Main.storyboard */,
+				F2A8656F24AA5A8E00B2E99F /* LaunchScreen.storyboard */,
+				F2B7DB5124ABB65900A5FAE2 /* CustomAnnotation.swift */,
+				F25326FC24B4853A0048D190 /* CustomCalloutView.swift */,
+				F23F9AA024BF1B5300D30439 /* CustomAnnotationView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F223AEF624BE4D0E00C9B5F2 /* CustomCalloutViewNibs.xib in Resources */,
 				F2A8657124AA5A8E00B2E99F /* LaunchScreen.storyboard in Resources */,
 				F2A8656E24AA5A8E00B2E99F /* Assets.xcassets in Resources */,
 				F2A8656924AA5A8D00B2E99F /* Main.storyboard in Resources */,
@@ -142,9 +221,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2A8656C24AA5A8D00B2E99F /* ForLocation.xcdatamodeld in Sources */,
-				F2A8656624AA5A8D00B2E99F /* ViewController.swift in Sources */,
+				F2A8656624AA5A8D00B2E99F /* MapViewController.swift in Sources */,
+				F2B7DB5224ABB65900A5FAE2 /* CustomAnnotation.swift in Sources */,
+				F25326FD24B4853A0048D190 /* CustomCalloutView.swift in Sources */,
+				F223AEF424BE470300C9B5F2 /* CustomCalloutViewNib.swift in Sources */,
+				F292F75F24AD3AA900F77FE5 /* SearchTableViewController.swift in Sources */,
+				F292F76224AD3B0200F77FE5 /* AppConstants.swift in Sources */,
 				F2A8656224AA5A8D00B2E99F /* AppDelegate.swift in Sources */,
+				F23F9AA124BF1B5300D30439 /* CustomAnnotationView.swift in Sources */,
 				F2A8656424AA5A8D00B2E99F /* SceneDelegate.swift in Sources */,
+				F278814824B661FE0048860B /* Model.swift in Sources */,
+				F23F260824B3B83D00AA8D9E /* DeleteViewController.swift in Sources */,
+				F278814524B661590048860B /* ServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
